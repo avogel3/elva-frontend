@@ -1,5 +1,5 @@
 # Elva Front End
-##### Front end for the new elva website, scaffolded using the Middleman framework
+##### Front end for the new Elva Martketing website, scaffolded using the Middleman framework
 
 ## Installation
 
@@ -13,4 +13,3 @@ bundle install
 middleman
 ```
 
-##### 2017
