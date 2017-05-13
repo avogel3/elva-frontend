@@ -1,0 +1,37 @@
+%footer
+  %nav.navbar.navbar-default{role: "navigation"}
+    .container-fluid
+      .row
+        .col-xs-12.col-sm-6
+          %ul.nav.navbar-nav.cabin
+            %li
+              %a{:href => 'index.html'} Home
+            %li
+              %a{:href => "about-us.html"} About Us
+            %li
+              %a{:href => "#"} Portfolio
+            %li
+              %a{:href => "success-stories.html"} Success Stories
+            %li
+              %a{:href => "contact.html"} Contact
+        .col-xs-12.col-sm-6
+          %ul.nav.navbar-nav.navbar-right.cabin
+            %li
+              = link_to '#' do
+                %i.fa.fa-lg.fa-phone{"aria-hidden" => "true"}
+                +1 (904) 379-1723
+            %li
+              = link_to '#' do
+                %i.fa.fa-lg.fa-facebook
+            %li
+              = link_to '#' do
+                %i.fa.fa-lg.fa-linkedin
+            %li
+              = link_to '#' do
+                %i.fa.fa-lg.fa-twitter
+          
+
+  / JQuery
+  %script{:crossorigin => "anonymous", :integrity => "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", :src => "https://code.jquery.com/jquery-3.2.1.min.js"}
+  / Latest compiled and minified JavaScript
+  %script{:crossorigin => "anonymous", :integrity => "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"}

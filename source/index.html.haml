@@ -1,0 +1,44 @@
+---
+title: "Elva Redesign"
+---
+%main
+  %section.header-image-section.launch
+    .callout
+      .col-xs-12.col-sm-10.col-sm-offset-1
+        .padding-15px
+          %h1.cabin
+            %span.white
+              We stand out.
+            %span.orange
+              We blend in.
+          %p.flow-text-large.cabin.white Elva Marketing is known to steal the spotlight but we also shine behind the scenes. 
+          %p.flow-text-large.cabin.orange Our attention-getting ideas are raising brand awareness and increasing sales for companies across the Southeast. However, what sets us apart is our stealth-like ability to mesh with in-house teams to create and carry out seamlessly integrated plans.
+
+  %section
+    .col-xs-12
+      .container
+        .row
+          .col-xs-12.col-sm-6
+            %h2.cabin About Elva
+            %p.cabin.flow-text
+              Adept at strategic planning and project management, we can quickly assess your short-term needs or long-term vision. Tell us what you want to achieve, and we’ll create an estimate, timeline, and task force to meet your goals within your budget. 
+              = link_to "Let’s talk now.", '#', class: 'orange'
+          .col-xs-12.col-sm-6
+            %h2.cabin Our Portfolio
+            %p.cabin.flow-text
+              The work must speak for itself. Advertising guru Howard Gossage said, “People read what interests them, sometimes it’s an ad.” Sometimes it’s a webpage or a brochure or a social media post.
+              = link_to lorem.words(4).capitalize, '#', class: 'orange'
+
+  %section
+    .col-xs-12
+      .container
+        .row
+          - 12.times do
+            .col-xs-6.col-sm-3= image_tag lorem.image('400x400'), class: "img-responsive", style: "padding-top: 15px;"
+        .row
+          %h3.center.cabin 
+            Elva has a proven track record of success. 
+            %br
+            = link_to "Learn how a partnership with us means growth for your business.", '#', class: 'orange'
+  
+              
