@@ -8,15 +8,21 @@ $elvorange: #f37736;
 #sidenav-overlay {
   z-index: 1;
 }
+
 nav {
   .button-collapse i {
     font-size: 2em !important;
     margin-top: -7px;
   }
 }
-// Helpers
 
+// Helpers
 .logo-padding {
   padding-top:10px;
   padding-left: 10px;
 }
+
+// Animate Helpers
+.animated { visibility: visible !important; }
+#subhead-text { visibility: hidden; }
+#bottom-subhead-text { visibility: hidden; }

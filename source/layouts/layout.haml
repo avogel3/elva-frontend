@@ -8,6 +8,13 @@
     %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/css/materialize.min.css", :rel => "stylesheet"}/
     / Material Icons
     %link{:href => "https://fonts.googleapis.com/icon?family=Material+Icons", :rel => "stylesheet"}/
+    / Animate CSS
+    %link{:href => "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css", :rel => "stylesheet"}/
+    / JQuery
+    %script{:crossorigin => "anonymous", :integrity => "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", :src => "https://code.jquery.com/jquery-3.2.1.min.js"}
+    / Compiled and minified JavaScript
+    %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"}v
+    = javascript_include_tag "effects"
     = favicon_tag "favicon.png"
     = stylesheet_link_tag "styles"
   %body

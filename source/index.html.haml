@@ -1,44 +1,65 @@
 ---
 title: "Elva Redesign"
 ---
-%main
-  %section.header-image-section.launch
-    .callout
-      .col-xs-12.col-sm-10.col-sm-offset-1
-        .padding-15px
-          %h1.cabin
-            %span.white
-              We stand out.
-            %span.orange
-              We blend in.
-          %p.flow-text-large.cabin.white Elva Marketing is known to steal the spotlight but we also shine behind the scenes. 
-          %p.flow-text-large.cabin.orange Our attention-getting ideas are raising brand awareness and increasing sales for companies across the Southeast. However, what sets us apart is our stealth-like ability to mesh with in-house teams to create and carry out seamlessly integrated plans.
 
-  %section
-    .col-xs-12
-      .container
-        .row
-          .col-xs-12.col-sm-6
-            %h2.cabin About Elva
-            %p.cabin.flow-text
-              Adept at strategic planning and project management, we can quickly assess your short-term needs or long-term vision. Tell us what you want to achieve, and we’ll create an estimate, timeline, and task force to meet your goals within your budget. 
-              = link_to "Let’s talk now.", '#', class: 'orange'
-          .col-xs-12.col-sm-6
-            %h2.cabin Our Portfolio
-            %p.cabin.flow-text
-              The work must speak for itself. Advertising guru Howard Gossage said, “People read what interests them, sometimes it’s an ad.” Sometimes it’s a webpage or a brochure or a social media post.
-              = link_to lorem.words(4).capitalize, '#', class: 'orange'
+.parallax-container
+  .parallax= image_tag 'spacex-71873.jpg'
+%section
+  .row
+    .col.s12.m10.offset-m1
+      .center-align
+        %h1.animated.fadeInLeft
+          We stand out.
+          %span.elva-text
+            We blend in.
+        %p.flow-text#subhead-text Elva Marketing is known to steal the spotlight but we also shine behind the scenes.
+#scrollfire-marker
+%section
+  .row
+    .col.s12.m10.offset-m1
+      .center-align
+        %h4 Check Out Our Latest Work
+%section
+  .row
+    .center-align
+      - 6.times do
+        = image_tag lorem.image('400x400'), class: "responsive-img hoverable"
+%section
+  .row
+    .center-align
+      %h2#bottom-head-text Who We Are
+      #bottom-subhead-text
+        %p.flow-text We are full-service marketing agency. We primarily operate in business-to-business, specializing in brand, digital, print, video, publicity, and outdoor.
+        %a.waves-effect.waves-light.btn-large
+          %i.material-icons.left phone
+          Let's Chat
 
-  %section
-    .col-xs-12
-      .container
-        .row
-          - 12.times do
-            .col-xs-6.col-sm-3= image_tag lorem.image('400x400'), class: "img-responsive", style: "padding-top: 15px;"
-        .row
-          %h3.center.cabin 
-            Elva has a proven track record of success. 
-            %br
-            = link_to "Learn how a partnership with us means growth for your business.", '#', class: 'orange'
-  
-              
+
+
+
+  -# %section
+  -#   .col-xs-12
+  -#     .container
+  -#       .row
+  -#         .col-xs-12.col-sm-6
+  -#           %h2.cabin About Elva
+  -#           %p.cabin.flow-text
+  -#             Adept at strategiic planning and project management, we can quickly assess your short-term needs or long-term vision. Tell us what you want to achieve, and we’ll create an estimate, timeline, and task force to meet your goals within your budget.
+  -#             = link_to "Let’s talk now.", '#', class: 'orange'
+  -#         .col-xs-12.col-sm-6
+  -#           %h2.cabin Our Portfolio
+  -#           %p.cabin.flow-text
+  -#             The work must speak for itself. Advertising guru Howard Gossage said, “People read what interests them, sometimes it’s an ad.” Sometimes it’s a webpage or a brochure or a social media post.
+  -#             = link_to lorem.words(4).capitalize, '#', class: 'orange'
+  -#
+  -# %section
+  -#   .col-xs-12
+  -#     .container
+  -#       .row
+  -#         - 12.times do
+  -#           .col-xs-6.col-sm-3= image_tag lorem.image('400x400'), class: "img-responsive", style: "padding-top: 15px;"
+  -#       .row
+  -#         %h3.center.cabin
+  -#           Elva has a proven track record of success.
+  -#           %br
+  -#           = link_to "Learn how a partnership with us means growth for your business.", '#', class: 'orange'
