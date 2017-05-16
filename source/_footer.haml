@@ -29,9 +29,10 @@
             %li
               = link_to '#' do
                 %i.fa.fa-lg.fa-twitter
-          
+
 
   / JQuery
   %script{:crossorigin => "anonymous", :integrity => "sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=", :src => "https://code.jquery.com/jquery-3.2.1.min.js"}
-  / Latest compiled and minified JavaScript
-  %script{:crossorigin => "anonymous", :integrity => "sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa", :src => "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"}
+  / Compiled and minified JavaScript
+  %script{:src => "https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.2/js/materialize.min.js"}v
+  = javascript_include_tag "effects"

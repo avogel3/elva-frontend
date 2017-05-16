@@ -1,175 +1,22 @@
 // Variables;
 $elvorange: #f37736;
 
-header {
-  .navbar {
-    background-color: white;
-    border: 0;
-    border-radius: 0 !important;
-  }
+.elva-text {
+  color: $elvorange !important
 }
 
-footer {
-  .navbar {
-    background-color: $elvorange;
-    border: 0;
-    border-radius: 0 !important;
-    display: inline-block;
-    width: 100%;
-    margin-bottom: -1;
-    margin-top: 15px !important;
-  }
-
-  .navbar-default {
-    .navbar-nav {
-      li {
-        a {
-          color: white;
-
-          &:hover {
-            background-color: #777;
-            color: white;
-          }
-        }
-      }
-    }
+#sidenav-overlay {
+  z-index: 1;
+}
+nav {
+  .button-collapse i {
+    font-size: 2em !important;
+    margin-top: -7px;
   }
 }
-
 // Helpers
-.center {
-  text-align: center;
-}
 
-.btn-elva {
-  color: white !important;
-  background-color: $elvorange;
-  border-color: $elvorange;
-}
-
-.cabin {
-  font-family: "Cabin", sans-serif;
-}
-
-.orange {
-  color:$elvorange !important;
-}
-
-.white {
-  color: white !important;
-}
-
-.flow-text {
-  font-weight: 500;
-  font-size: 17px;
-}
-
-.flow-text-large {
-  font-weight: 500;
-  font-size: 24px;
-}
-
-.grey-flow-text {
-  color:grey;
-  font-weight:500;
-  font-size:17px;
-}
-
-.padding-15px {
-  padding: 15px;
-}
-
-.padding-bottom-15px {
-  padding-bottom: 15px;
-}
-
-.padding-vertical-15px {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
-.padding-bottom-40px {
-  padding-bottom: 40px; 
-}
-
-
-// Home Header image
-.callout {
-  bottom: 0;
-  display: flex;
-  left: 0;
-  position: absolute;
-  right: 0;
-  -webkit-transition: opacity .25s ease;
-  background: rgba(0, 0, 0, .35);
-}
-
-.header-image-section {
-  @media(max-width: 767px) {
-    height: 830px;
-  }
-
-  @media(min-width: 768px) {
-    height: 535px;
-  }
-
-  
-  position: relative;
-  z-index: -99999;
-}
-
-.launch {
-  background-image: image-url("spacex-71873.jpg");
-  background-position: center top;
-  background-size: cover;
-  max-width: 100%;
-}
-
-// Pages Header Image
-.page-header-img {
-  padding-top: 15px;
-  background-image: image-url("unsplash-ocean.jpg");
-  background-position: center bottom;
-  background-size: cover;
-  max-width: 100%;
-  min-height: 320;
-  max-height: 800;
-}
-
-.header-img {
-  padding-top: 15px;
-  min-height: 320;
-  max-height: 800;
-}
-
-.contact {
-  background-image: image-url("midtown-centre.jpg");
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-}
-
-.success {
-  background-image: image-url("pattern.jpg");
-  background-position: center;
-  background-size: cover;
-  max-width: 100%;
-}
-
-.rectangle {
-    width: 200px;
-    height: 5px;
-    background: #ddd;
-}
-
-.contact-info {
-  line-height: 30px;
-}
-
-.grey {
-  color: grey !important;
-}
-
-.padding-right-5px {
-  padding-right: 5px;
+.logo-padding {
+  padding-top:10px;
+  padding-left: 10px;
 }
